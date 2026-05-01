@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Greet User</title>
+  </head>
+  <body>
+    <script>
+      //   function greetUser(name) {
+      //     document.write("Hello, " + name + "!");
+      //   }
+
+      //   greetUser("John");
+
+      //   function calculateSum(a, b) {
+      //     return a + b;
+      //   }
+
+      //   document.write("Addition is " + calculateSum(7, 9));
+
+      ///Array////////
+
+      let fruits = ["apple", "banana", "cherry"];
+      document.write("<br>" + fruits);
+      fruits.push("Mango");
+      document.write("<br>" + fruits);
+      fruits.shift();
+      document.write("<br>" + fruits);
+      console.log(fruits);
+
+      document.write("<hr>");
+      let numbers = [10, 20, 30, 40, 50];
+      document.write("<br>" + numbers);
+      document.write("<hr>");
+      let sum = 0;
+
+      for (let i = 0; i < numbers.length; i++) {
+        sum = sum + numbers[i];
+      }
+
+      document.write("Sum of array elements is:", sum);
+    </script>
+  </body>
+</html>
